@@ -1,55 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node1" appversion="5.2.0" apprev="15969">
+<tour apprev="15969" start="node1" appversion="5.2.0">
   <panorama id="node1">
-    <input levelingroll="-0.8" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingpitch="-0.2" width="1344" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="0.400">
-      <level height="1344" width="1344" preload="0" predecode="0"/>
-      <level height="672" width="672" preload="0" predecode="0"/>
-      <level height="336" width="336" preload="1" predecode="1"/>
+    <input levelingroll="-0.8" width="1344" overlap="1" height="1344" leveltilesize="510" levelbias="0.400" levelbiashidpi="0.400" levelingpitch="-0.2" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="292.5" fovmode="0">
-      <start pan="-0.326935" tilt="7.35368" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start pan="-0.326935" tilt="7.35368" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
       <min pan="0" tilt="-90" fov="5"/>
-      <max scaletofit="1" pan="360" tilt="90" fovstereographic="270" fov="120" fovfisheye="360"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
     </view>
-    <userdata info="Asheville North Carolina" comment="Beautiful house found on homeaway.com.  Prime location, 5 minutes from downtown.  28 minutes from The Blue Ridge Parkway." tags="asheville apt" title="The Tree Fort -  Asheville NC" copyright="Round View Tours &amp; Development" latitude="35.626039" customnodeid="" datetime="7/31/2017 8:18 PM" description="The Front Gate" author="Curtis Coddington" longitude="-82.554867" source="Theta S"/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" textalpha="1" borderalpha="1" backgroundalpha="1" wordwrap="1" width="180" textcolor="0x000000" border="1" enabled="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x000000" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="1" mode="2" bordercolor="0x1c728e"/>
-      <hotspot title="Treefort w/ Hot tub" pan="-3.46" tilt="26.25" target="_blank" url="https://www.homeaway.com/vacation-rental/p487556vb" id="Point10" description="Coolest Funkiest Small House In Asheville.&#xa;&#xa;Nestled high off the ground, surrounded by trees, the 'Treefort' makes you feel like you are staying in the woods yet you can be downtown in 5 minutes. Located in the highly desirable North Asheville area, you can literally walk to over 10 restaurants and bars within 6 minutes yet you can stare at views of the nearby mountains while sitting on the screened in sleeping porch.&#xa;&#xa;&lt;a href=&quot;https://www.homeaway.com/vacation-rental/p487556vb&quot; target=&quot;_blank&quot;>See More!&lt;/a>&#xa;" skinid="ht_info"/>
-      <hotspot title="How To Travel" pan="-3.38" tilt="-14.66" target="" url="" id="Point01" description="Use the doors, sidewalk, road, and mountain to travel through this tour!" skinid="ht_info"/>
-      <polyhotspot title="The Mountain House" target="_blank" url="http://www.roundviewtours.com/mtnapt" id="Poly01" description="">
-        <vertex pan="-142.64" tilt="4.31"/>
-        <vertex pan="-149.03" tilt="6.71"/>
-        <vertex pan="-158.89" tilt="5.13"/>
-        <vertex pan="-160.73" tilt="4.26"/>
-        <vertex pan="-164.01" tilt="5.08"/>
-        <vertex pan="-165.69" tilt="4.45"/>
-        <vertex pan="-171.37" tilt="1.39"/>
-        <vertex pan="-142.06" tilt="1.9"/>
-      </polyhotspot>
-      <polyhotspot title="Blue Ridge Parkway" target="" url="{node11}" id="Poly02" description="Onbark Ridge Overlook">
-        <vertex pan="-176.62" tilt="-11.83"/>
-        <vertex pan="152.15" tilt="-25"/>
-        <vertex pan="141.75" tilt="-21.52"/>
-        <vertex pan="177.77" tilt="-11.97"/>
-        <vertex pan="177.77" tilt="-11.97"/>
-      </polyhotspot>
-      <polyhotspot title="The Balcony" target="" url="{node8}" id="Poly03" description="">
-        <vertex pan="-16.81" tilt="12.06"/>
-        <vertex pan="-16.7" tilt="23.13"/>
-        <vertex pan="-10.18" tilt="23.88"/>
-        <vertex pan="-10.16" tilt="12.27"/>
-        <vertex pan="-10.04" tilt="12.39"/>
-      </polyhotspot>
-      <polyhotspot title="To The Hot Tub!" target="" url="{node2}" id="Poly04" description="">
-        <vertex pan="34.87" tilt="-13.65"/>
-        <vertex pan="26.38" tilt="-14.64"/>
-        <vertex pan="17.55" tilt="-7.66"/>
-        <vertex pan="21.77" tilt="-7.55"/>
-      </polyhotspot>
-      <polyhotspot title="The Driveway" target="_blank" url="https://github.com/centelred/asheapt/blob/master/media/0730172004b-1.jpg?raw=true" id="Poly05" description="My Mazda3 GT Hatch">
+    <userdata longitude="-82.554867" description="The Front Gate" source="Theta S" title="The Tree Fort -  Asheville NC" author="Curtis Coddington" datetime="7/31/2017 8:18 PM" comment="Beautiful house found on homeaway.com.  Prime location, 5 minutes from downtown.  28 minutes from The Blue Ridge Parkway." customnodeid="" info="Asheville North Carolina" tags="asheville apt" latitude="35.626039" copyright="Round View Tours &amp; Development"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" border="1" backgroundcolor="0xffffff" enabled="1" bordercolor="0x000000" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" height="20" textcolor="0x000000" borderalpha="1" background="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" mode="2" borderalpha="1"/>
+      <hotspot pan="-3.46" description="Coolest Funkiest Small House In Asheville.&#xa;&#xa;Nestled high off the ground, surrounded by trees, the 'Treefort' makes you feel like you are staying in the woods yet you can be downtown in 5 minutes. Located in the highly desirable North Asheville area, you can literally walk to over 10 restaurants and bars within 6 minutes yet you can stare at views of the nearby mountains while sitting on the screened in sleeping porch.&#xa;&#xa;&lt;a href=&quot;https://www.homeaway.com/vacation-rental/p487556vb&quot; target=&quot;_blank&quot;>See More!&lt;/a>&#xa;" tilt="26.25" title="Treefort w/ Hot tub" url="https://www.homeaway.com/vacation-rental/p487556vb" skinid="ht_info" target="_blank" id="Point10"/>
+      <hotspot pan="-3.38" description="Use the doors, sidewalk, road, and mountain to travel through this tour!" tilt="-14.66" title="How To Travel" url="" skinid="ht_info" target="" id="Point01"/>
+      <hotspot pan="-13.56" description="" tilt="14.39" title="To The Stairs" url="{node8}" skinid="ht_node" target="" id="Point02"/>
+      <hotspot pan="20.57" description="" tilt="-7.47" title="To The Hot Tub" url="{node2}" skinid="ht_node" target="" id="Point03"/>
+      <hotspot pan="-150.58" description="&#x9;" tilt="4.51" title="To The Mountain Apartment" url="" skinid="ht_url" target="_blank" id="Point04"/>
+      <hotspot pan="151.22" description="" tilt="-12.39" title="To The Blue Ridge Parkway" url="{node11}" skinid="ht_node" target="" id="Point05"/>
+      <polyhotspot description="My Mazda3 GT Hatch" title="The Driveway" url="https://github.com/centelred/asheapt/blob/master/media/0730172004b-1.jpg?raw=true" target="_blank" id="Poly05">
         <vertex pan="-84.44" tilt="-44.29"/>
         <vertex pan="93.96" tilt="-73.76"/>
         <vertex pan="150.93" tilt="-46.73"/>
@@ -58,13 +32,13 @@
         <vertex pan="-121.14" tilt="-38.13"/>
         <vertex pan="-120.94" tilt="-37.94"/>
       </polyhotspot>
-      <polyhotspot title="Caged Animal" target="_blank" url="https://github.com/centelred/asheapt/blob/master/images/0730172005-1-1.jpg?raw=true" id="Poly06" description="">
+      <polyhotspot description="" title="Caged Animal" url="https://github.com/centelred/asheapt/blob/master/images/0730172005-1-1.jpg?raw=true" target="_blank" id="Poly06">
         <vertex pan="150.07" tilt="-46.2"/>
         <vertex pan="93.1" tilt="-72.87"/>
         <vertex pan="93.35" tilt="-53.19"/>
         <vertex pan="149.01" tilt="-25.86"/>
       </polyhotspot>
-      <polyhotspot title="Meg &amp; I out front" target="_blank" url="https://github.com/centelred/asheapt/blob/master/images/0730172006.jpg?raw=true" id="Poly07" description="">
+      <polyhotspot description="" title="Meg &amp; I out front" url="https://github.com/centelred/asheapt/blob/master/images/0730172006.jpg?raw=true" target="_blank" id="Poly07">
         <vertex pan="-156.59" tilt="-39.95"/>
         <vertex pan="-124.03" tilt="-30.64"/>
         <vertex pan="-121.57" tilt="-30.45"/>
@@ -74,7 +48,7 @@
         <vertex pan="-148.25" tilt="-48.89"/>
         <vertex pan="-148.25" tilt="-48.89"/>
       </polyhotspot>
-      <polyhotspot title="View from the street" target="_blank" url="https://github.com/centelred/asheapt/blob/master/images/0731171003.jpg?raw=true" id="Poly08" description="">
+      <polyhotspot description="" title="View from the street" url="https://github.com/centelred/asheapt/blob/master/images/0731171003.jpg?raw=true" target="_blank" id="Poly08">
         <vertex pan="-157.28" tilt="-40.49"/>
         <vertex pan="-149.39" tilt="-49.19"/>
         <vertex pan="150.73" tilt="-46"/>
@@ -84,150 +58,87 @@
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition softedge="10" zoomfov="20" type="diptocolor" zoomspeed="2" zoomin="0" blendtime="1" zoomout="0" zoomoutpause="1" enabled="1" blendcolor="0x000000"/>
-    <autorotate nodedelay="30.00" noderandom="0" startloaded="1" speed="0.200" delay="3.00" enabled="1" returntohorizon="0.000" useanimation="0"/>
-    <flyintransition speed="0.70" enabled="1"/>
+    <transition blendtime="1" zoomfov="20" type="diptocolor" softedge="10" enabled="1" zoomout="0" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" zoomin="0"/>
+    <autorotate enabled="1" noderandom="0" delay="3.00" returntohorizon="0.000" nodedelay="30.00" startloaded="1" speed="0.200" useanimation="0"/>
+    <flyintransition enabled="1" speed="0.70"/>
     <animation syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedmouse="0" lockedkeyboard="0" contextprojections="0" invertwheel="0" lockedwheel="0" speedwheel="1" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" contextfullscreen="0" rubberband="0" dblclickfullscreen="0" lockedkeyboardzoom="0"/>
+    <control rubberband="0" contextfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" hideabout="0" dblclickfullscreen="0" lockedmouse="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" simulatemass="1" invertcontrol="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node2">
-    <input levelingroll="1.8" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingpitch="3.8" width="1344" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="0.400">
-      <level height="1344" width="1344" preload="0" predecode="0"/>
-      <level height="672" width="672" preload="0" predecode="0"/>
-      <level height="336" width="336" preload="1" predecode="1"/>
+    <input levelingroll="1.8" width="1344" overlap="1" height="1344" leveltilesize="510" levelbias="0.400" levelbiashidpi="0.400" levelingpitch="3.8" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="270" fovmode="0">
-      <start pan="-28.0379" tilt="-30.5977" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start pan="-28.0379" tilt="-30.5977" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
       <min pan="0" tilt="-90" fov="5"/>
-      <max scaletofit="1" pan="360" tilt="90" fovstereographic="270" fov="120" fovfisheye="360"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
     </view>
-    <userdata info="Asheville North Carolina" comment="Beautiful hot tub, complete with LEDs and different jet zones!  Amazing hot tub!" tags="asheville apt" title="HOT TUB!!" copyright="Round View Tours &amp; Development" latitude="35.626022" customnodeid="" datetime="7/31/2017 8:18 PM" description="HOT TUB!!" author="Curtis Coddington" longitude="-82.554889" source="Theta S"/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" textalpha="1" borderalpha="1" backgroundalpha="1" wordwrap="1" width="180" textcolor="0x000000" border="1" enabled="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x000000" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="1" mode="2" bordercolor="0x1c728e"/>
-      <polyhotspot title="Back To The Gate!" target="" url="{node1}" id="Poly01" description="">
-        <vertex pan="130.24" tilt="-7.98"/>
-        <vertex pan="159.12" tilt="-10.27"/>
-        <vertex pan="159.35" tilt="16.88"/>
-      </polyhotspot>
-      <polyhotspot title="The hot tub has LEDs!" target="_blank" url="https://github.com/centelred/asheapt/blob/master/media/0731172231.mp4?raw=true" id="Poly02" description="">
-        <vertex pan="-32.22" tilt="-21.94"/>
-        <vertex pan="-27.75" tilt="-22.02"/>
-        <vertex pan="-4.66" tilt="-22.21"/>
-        <vertex pan="-1.57" tilt="-22.85"/>
-        <vertex pan="1.04" tilt="-23.3"/>
-        <vertex pan="3.2" tilt="-25.45"/>
-        <vertex pan="29.92" tilt="-49.22"/>
-        <vertex pan="33.88" tilt="-53.01"/>
-        <vertex pan="35.89" tilt="-57.11"/>
-        <vertex pan="35.72" tilt="-61.46"/>
-        <vertex pan="28.68" tilt="-66.91"/>
-        <vertex pan="2.21" tilt="-72.81"/>
-        <vertex pan="-73.01" tilt="-60.51"/>
-        <vertex pan="-77.68" tilt="-56.33"/>
-        <vertex pan="-77.18" tilt="-52.53"/>
-        <vertex pan="-75.68" tilt="-49.08"/>
-        <vertex pan="-72.03" tilt="-46.06"/>
-        <vertex pan="-67.85" tilt="-43.46"/>
-        <vertex pan="-37.87" tilt="-24.48"/>
-        <vertex pan="-35.46" tilt="-22.93"/>
-      </polyhotspot>
+    <userdata longitude="-82.554889" description="HOT TUB!!" source="Theta S" title="HOT TUB!!" author="Curtis Coddington" datetime="7/31/2017 8:18 PM" comment="Beautiful hot tub, complete with LEDs and different jet zones!  Amazing hot tub!" customnodeid="" info="Asheville North Carolina" tags="asheville apt" latitude="35.626022" copyright="Round View Tours &amp; Development"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" border="1" backgroundcolor="0xffffff" enabled="1" bordercolor="0x000000" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" height="20" textcolor="0x000000" borderalpha="1" background="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" mode="2" borderalpha="1"/>
+      <hotspot pan="138.23" description="" tilt="-6.69" title="Back To Front Gate" url="{node1}" skinid="ht_node" target="" id="Point01"/>
     </hotspots>
     <media/>
-    <transition softedge="10" zoomfov="20" type="diptocolor" zoomspeed="2" zoomin="0" blendtime="1" zoomout="0" zoomoutpause="1" enabled="1" blendcolor="0x000000"/>
-    <autorotate nodedelay="30.00" noderandom="0" startloaded="1" speed="0.200" delay="3.00" enabled="1" returntohorizon="0.000" useanimation="0"/>
-    <flyintransition speed="0.70" enabled="1"/>
+    <transition blendtime="1" zoomfov="20" type="diptocolor" softedge="10" enabled="1" zoomout="0" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" zoomin="0"/>
+    <autorotate enabled="1" noderandom="0" delay="3.00" returntohorizon="0.000" nodedelay="30.00" startloaded="1" speed="0.200" useanimation="0"/>
+    <flyintransition enabled="1" speed="0.70"/>
     <animation syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedmouse="0" lockedkeyboard="0" contextprojections="0" invertwheel="0" lockedwheel="0" speedwheel="1" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" contextfullscreen="0" rubberband="0" dblclickfullscreen="0" lockedkeyboardzoom="0"/>
+    <control rubberband="0" contextfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" hideabout="0" dblclickfullscreen="0" lockedmouse="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" simulatemass="1" invertcontrol="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node3">
-    <input levelingroll="3.4" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingpitch="5.6" width="1344" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="0.400">
-      <level height="1344" width="1344" preload="0" predecode="0"/>
-      <level height="672" width="672" preload="0" predecode="0"/>
-      <level height="336" width="336" preload="1" predecode="1"/>
+    <input levelingroll="3.4" width="1344" overlap="1" height="1344" leveltilesize="510" levelbias="0.400" levelbiashidpi="0.400" levelingpitch="5.6" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="202.5" fovmode="0">
-      <start pan="-19.1381" tilt="-10.6353" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start pan="-19.1381" tilt="-10.6353" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
       <min pan="0" tilt="-90" fov="5"/>
-      <max scaletofit="1" pan="360" tilt="90" fovstereographic="270" fov="120" fovfisheye="360"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
     </view>
-    <userdata info="Asheville North Carolina" comment="One of the best parts of the stay, was the view.  " tags="asheville apt" title="The Patio" copyright="Round View Tours &amp; Development" latitude="35.625939" customnodeid="" datetime="7/31/2017 8:19 PM" description="The Patio" author="Curtis Coddington" longitude="-82.554761" source="Theta S"/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" textalpha="1" borderalpha="1" backgroundalpha="1" wordwrap="1" width="180" textcolor="0x000000" border="1" enabled="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x000000" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="1" mode="2" bordercolor="0x1c728e"/>
-      <polyhotspot title="The Kitchen" target="" url="{node4}" id="Poly01" description="">
-        <vertex pan="-45.66" tilt="-52.27"/>
-        <vertex pan="-71.63" tilt="-42.92"/>
-        <vertex pan="-71.39" tilt="18.89"/>
-        <vertex pan="-46.6" tilt="25.85"/>
-      </polyhotspot>
-      <polyhotspot title="Back To The Balcony" target="" url="{node8}" id="Poly02" description="">
-        <vertex pan="93.3" tilt="-42.34"/>
-        <vertex pan="93.02" tilt="19.56"/>
-        <vertex pan="121.33" tilt="17.84"/>
-        <vertex pan="120.8" tilt="-41.34"/>
-      </polyhotspot>
-      <polyhotspot title="Back to the gate" target="" url="{node1}" id="Poly03" description="">
-        <vertex pan="62.74" tilt="-3.21"/>
-        <vertex pan="85.17" tilt="-5.02"/>
-        <vertex pan="85.28" tilt="-15.51"/>
-        <vertex pan="76.01" tilt="-21.23"/>
-        <vertex pan="64.21" tilt="-19.5"/>
-        <vertex pan="62.85" tilt="-17.52"/>
-      </polyhotspot>
+    <userdata longitude="-82.554761" description="The Patio" source="Theta S" title="The Patio" author="Curtis Coddington" datetime="7/31/2017 8:19 PM" comment="One of the best parts of the stay, was the view.  " customnodeid="" info="Asheville North Carolina" tags="asheville apt" latitude="35.625939" copyright="Round View Tours &amp; Development"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" border="1" backgroundcolor="0xffffff" enabled="1" bordercolor="0x000000" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" height="20" textcolor="0x000000" borderalpha="1" background="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" mode="2" borderalpha="1"/>
+      <hotspot pan="69.33" description="" tilt="-19.37" title="Back To The Beginning" url="{node1}" skinid="ht_node" target="" id="Point01"/>
+      <hotspot pan="94.63" description="" tilt="-20.18" title="Back To The Stairs" url="{node8}" skinid="ht_node" target="" id="Point02"/>
+      <hotspot pan="-49.2" description="" tilt="-26.89" title="To The Kitchen" url="{node4}" skinid="ht_node" target="" id="Point03"/>
     </hotspots>
     <media/>
-    <transition softedge="10" zoomfov="20" type="diptocolor" zoomspeed="2" zoomin="0" blendtime="1" zoomout="0" zoomoutpause="1" enabled="1" blendcolor="0x000000"/>
-    <autorotate nodedelay="30.00" noderandom="0" startloaded="1" speed="0.200" delay="3.00" enabled="1" returntohorizon="0.000" useanimation="0"/>
-    <flyintransition speed="0.70" enabled="1"/>
+    <transition blendtime="1" zoomfov="20" type="diptocolor" softedge="10" enabled="1" zoomout="0" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" zoomin="0"/>
+    <autorotate enabled="1" noderandom="0" delay="3.00" returntohorizon="0.000" nodedelay="30.00" startloaded="1" speed="0.200" useanimation="0"/>
+    <flyintransition enabled="1" speed="0.70"/>
     <animation syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedmouse="0" lockedkeyboard="0" contextprojections="0" invertwheel="0" lockedwheel="0" speedwheel="1" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" contextfullscreen="0" rubberband="0" dblclickfullscreen="0" lockedkeyboardzoom="0"/>
+    <control rubberband="0" contextfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" hideabout="0" dblclickfullscreen="0" lockedmouse="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" simulatemass="1" invertcontrol="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node4">
-    <input levelingroll="1.6" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingpitch="6.2" width="1344" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="0.400">
-      <level height="1344" width="1344" preload="0" predecode="0"/>
-      <level height="672" width="672" preload="0" predecode="0"/>
-      <level height="336" width="336" preload="1" predecode="1"/>
+    <input levelingroll="1.6" width="1344" overlap="1" height="1344" leveltilesize="510" levelbias="0.400" levelbiashidpi="0.400" levelingpitch="6.2" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="157.5" fovmode="0">
-      <start pan="-10.801" tilt="-5.39229" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start pan="-10.801" tilt="-5.39229" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
       <min pan="0" tilt="-90" fov="5"/>
-      <max scaletofit="1" pan="360" tilt="90" fovstereographic="270" fov="120" fovfisheye="360"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
     </view>
-    <userdata info="Asheville North Carolina" comment="Megan loved the fridge.  I took an extra photo, just for her." tags="asheville apt" title="The Kitchen" copyright="Round View Tours &amp; Development" latitude="35.626025" customnodeid="" datetime="7/31/2017 8:19 PM" description="The Kitchen" author="Curtis Coddington" longitude="-82.554944" source="Theta S"/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" textalpha="1" borderalpha="1" backgroundalpha="1" wordwrap="1" width="180" textcolor="0x000000" border="1" enabled="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x000000" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="1" mode="2" bordercolor="0x1c728e"/>
-      <hotspot title="LOFT MUSIC!!" pan="33.51" tilt="65" target="" url="{node6}" id="Point01" description="" skinid="ht_node"/>
-      <polyhotspot title="Back To The Patio" target="" url="{node3}" id="Poly01" description="">
-        <vertex pan="86.91" tilt="12.16"/>
-        <vertex pan="84.51" tilt="-24.18"/>
-        <vertex pan="73.84" tilt="-24.51"/>
-        <vertex pan="74.61" tilt="11.06"/>
-        <vertex pan="74.61" tilt="10.96"/>
-      </polyhotspot>
-      <polyhotspot title="The Bedroom" target="" url="{node5}" id="Poly02" description="">
-        <vertex pan="-167.52" tilt="-33.69"/>
-        <vertex pan="-146.51" tilt="-23.65"/>
-        <vertex pan="-151.5" tilt="-18.37"/>
-        <vertex pan="-158.3" tilt="-16.04"/>
-        <vertex pan="-162.13" tilt="-16.36"/>
-        <vertex pan="-164.1" tilt="-13.63"/>
-        <vertex pan="-170.97" tilt="-13"/>
-        <vertex pan="-173.71" tilt="-15.45"/>
-        <vertex pan="-176.8" tilt="-16.24"/>
-        <vertex pan="-178.26" tilt="-15.87"/>
-        <vertex pan="-178.2" tilt="-31.55"/>
-        <vertex pan="-170.92" tilt="-30.88"/>
-        <vertex pan="-170.65" tilt="-30.59"/>
-      </polyhotspot>
-      <polyhotspot title="The Robes!" target="_blank" url="https://github.com/centelred/asheapt/blob/master/media/0730172119.jpg?raw=true" id="Poly03" description="">
+    <userdata longitude="-82.554944" description="The Kitchen" source="Theta S" title="The Kitchen" author="Curtis Coddington" datetime="7/31/2017 8:19 PM" comment="Megan loved the fridge.  I took an extra photo, just for her." customnodeid="" info="Asheville North Carolina" tags="asheville apt" latitude="35.626025" copyright="Round View Tours &amp; Development"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" border="1" backgroundcolor="0xffffff" enabled="1" bordercolor="0x000000" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" height="20" textcolor="0x000000" borderalpha="1" background="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" mode="2" borderalpha="1"/>
+      <hotspot pan="33.51" description="" tilt="65" title="LOFT MUSIC!!" url="{node6}" skinid="ht_node" target="" id="Point01"/>
+      <hotspot pan="-151.11" description="" tilt="-20.1" title="To The Bedroom" url="{node5}" skinid="ht_node" target="" id="Point02"/>
+      <hotspot pan="75.12" description="" tilt="-10.13" title="Back To The Patio" url="{node3}" skinid="ht_node" target="" id="Point03"/>
+      <polyhotspot description="" title="The Robes!" url="https://github.com/centelred/asheapt/blob/master/media/0730172119.jpg?raw=true" target="_blank" id="Poly03">
         <vertex pan="150.09" tilt="4.83"/>
         <vertex pan="151.42" tilt="4.04"/>
         <vertex pan="152.28" tilt="1.64"/>
@@ -252,7 +163,7 @@
         <vertex pan="145.21" tilt="-2.56"/>
         <vertex pan="147.21" tilt="2.15"/>
       </polyhotspot>
-      <polyhotspot title="The Fridge, Megan loved." target="_blank" url="https://github.com/centelred/asheapt/blob/master/images/0730172310.jpg?raw=true" id="Poly04" description="">
+      <polyhotspot description="" title="The Fridge, Megan loved." url="https://github.com/centelred/asheapt/blob/master/images/0730172310.jpg?raw=true" target="_blank" id="Poly04">
         <vertex pan="9.27" tilt="6.28"/>
         <vertex pan="12.19" tilt="6.62"/>
         <vertex pan="17.62" tilt="6.85"/>
@@ -272,7 +183,7 @@
         <vertex pan="9.7" tilt="-26.33"/>
         <vertex pan="8.79" tilt="-25.12"/>
       </polyhotspot>
-      <polyhotspot title="Back to the balcony" target="" url="{node8}" id="Poly05" description="">
+      <polyhotspot description="" title="Back to the balcony" url="{node8}" target="" id="Poly05">
         <vertex pan="69.92" tilt="-0.73"/>
         <vertex pan="73.98" tilt="-1.13"/>
         <vertex pan="73.39" tilt="-5.97"/>
@@ -281,154 +192,90 @@
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition softedge="10" zoomfov="20" type="diptocolor" zoomspeed="2" zoomin="0" blendtime="1" zoomout="0" zoomoutpause="1" enabled="1" blendcolor="0x000000"/>
-    <autorotate nodedelay="30.00" noderandom="0" startloaded="1" speed="0.200" delay="3.00" enabled="1" returntohorizon="0.000" useanimation="0"/>
-    <flyintransition speed="0.70" enabled="1"/>
+    <transition blendtime="1" zoomfov="20" type="diptocolor" softedge="10" enabled="1" zoomout="0" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" zoomin="0"/>
+    <autorotate enabled="1" noderandom="0" delay="3.00" returntohorizon="0.000" nodedelay="30.00" startloaded="1" speed="0.200" useanimation="0"/>
+    <flyintransition enabled="1" speed="0.70"/>
     <animation syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedmouse="0" lockedkeyboard="0" contextprojections="0" invertwheel="0" lockedwheel="0" speedwheel="1" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" contextfullscreen="0" rubberband="0" dblclickfullscreen="0" lockedkeyboardzoom="0"/>
+    <control rubberband="0" contextfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" hideabout="0" dblclickfullscreen="0" lockedmouse="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" simulatemass="1" invertcontrol="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node5">
-    <input levelingroll="5.2" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingpitch="5.7" width="1344" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="0.400">
-      <level height="1344" width="1344" preload="0" predecode="0"/>
-      <level height="672" width="672" preload="0" predecode="0"/>
-      <level height="336" width="336" preload="1" predecode="1"/>
+    <input levelingroll="5.2" width="1344" overlap="1" height="1344" leveltilesize="510" levelbias="0.400" levelbiashidpi="0.400" levelingpitch="5.7" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="67.5" fovmode="0">
-      <start pan="31.0428" tilt="-11.3117" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start pan="31.0428" tilt="-11.3117" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
       <min pan="0" tilt="-90" fov="5"/>
-      <max scaletofit="1" pan="360" tilt="90" fovstereographic="270" fov="120" fovfisheye="360"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
     </view>
-    <userdata info="Asheville North Carolina" comment="We need this matress in our lives.  One of the best nights of sleep in my life." tags="asheville apt" title="The Bedroom/Living Area" copyright="Round View Tours &amp; Development" latitude="35.626017" customnodeid="" datetime="7/31/2017 8:20 PM" description="The Bedroom/Living Area" author="Curtis Coddington" longitude="-82.554919" source="Theta S"/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" textalpha="1" borderalpha="1" backgroundalpha="1" wordwrap="1" width="180" textcolor="0x000000" border="1" enabled="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x000000" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="1" mode="2" bordercolor="0x1c728e"/>
-      <polyhotspot title="To The Loft!" target="" url="{node6}" id="Poly01" description="">
-        <vertex pan="-13.1" tilt="9.02"/>
-        <vertex pan="-13.46" tilt="35.88"/>
-        <vertex pan="-11.9" tilt="36.02"/>
-        <vertex pan="-11.74" tilt="39.58"/>
-        <vertex pan="-36.79" tilt="39.08"/>
-        <vertex pan="-37.4" tilt="37.46"/>
-        <vertex pan="-35.3" tilt="35.27"/>
-        <vertex pan="-37.53" tilt="8.62"/>
-        <vertex pan="-35.82" tilt="8.83"/>
-      </polyhotspot>
-      <polyhotspot title="Back To The Kitchen" target="" url="{node4}" id="Poly02" description="">
-        <vertex pan="-45.27" tilt="-8.43"/>
-        <vertex pan="-26.11" tilt="-9.37"/>
-        <vertex pan="-27.41" tilt="-13.42"/>
-        <vertex pan="-28.32" tilt="-10.4"/>
-        <vertex pan="-29.56" tilt="-10.66"/>
-        <vertex pan="-29.93" tilt="-11.52"/>
-        <vertex pan="-30.39" tilt="-16.51"/>
-        <vertex pan="-39.64" tilt="-16.1"/>
-        <vertex pan="-41.86" tilt="-14.23"/>
-        <vertex pan="-44.82" tilt="-14.35"/>
-        <vertex pan="-45.89" tilt="-13.35"/>
-      </polyhotspot>
-      <polyhotspot title="Back to the patio" target="" url="{node3}" id="Poly03" description="">
-        <vertex pan="-20.79" tilt="-5.37"/>
-        <vertex pan="-20.66" tilt="6.67"/>
-        <vertex pan="-14.27" tilt="6.5"/>
-        <vertex pan="-13.87" tilt="-6.64"/>
-        <vertex pan="-20.86" tilt="-6.41"/>
-      </polyhotspot>
+    <userdata longitude="-82.554919" description="The Bedroom/Living Area" source="Theta S" title="The Bedroom/Living Area" author="Curtis Coddington" datetime="7/31/2017 8:20 PM" comment="We need this matress in our lives.  One of the best nights of sleep in my life." customnodeid="" info="Asheville North Carolina" tags="asheville apt" latitude="35.626017" copyright="Round View Tours &amp; Development"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" border="1" backgroundcolor="0xffffff" enabled="1" bordercolor="0x000000" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" height="20" textcolor="0x000000" borderalpha="1" background="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" mode="2" borderalpha="1"/>
+      <hotspot pan="-41.46" description="" tilt="-12" title="Back To The Kitchen" url="{node4}" skinid="ht_node" target="" id="Point01"/>
+      <hotspot pan="-24.4" description="" tilt="37.76" title="To The Loft" url="{node6}" skinid="ht_node" target="" id="Point02"/>
+      <hotspot pan="-16.94" description="" tilt="-5.11" title="Back To The Patio" url="{node3}" skinid="ht_node" target="" id="Point03"/>
     </hotspots>
     <media/>
-    <transition softedge="10" zoomfov="20" type="diptocolor" zoomspeed="2" zoomin="0" blendtime="1" zoomout="0" zoomoutpause="1" enabled="1" blendcolor="0x000000"/>
-    <autorotate nodedelay="30.00" noderandom="0" startloaded="1" speed="0.200" delay="3.00" enabled="1" returntohorizon="0.000" useanimation="0"/>
-    <flyintransition speed="0.70" enabled="1"/>
+    <transition blendtime="1" zoomfov="20" type="diptocolor" softedge="10" enabled="1" zoomout="0" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" zoomin="0"/>
+    <autorotate enabled="1" noderandom="0" delay="3.00" returntohorizon="0.000" nodedelay="30.00" startloaded="1" speed="0.200" useanimation="0"/>
+    <flyintransition enabled="1" speed="0.70"/>
     <animation syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedmouse="0" lockedkeyboard="0" contextprojections="0" invertwheel="0" lockedwheel="0" speedwheel="1" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" contextfullscreen="0" rubberband="0" dblclickfullscreen="0" lockedkeyboardzoom="0"/>
+    <control rubberband="0" contextfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" hideabout="0" dblclickfullscreen="0" lockedmouse="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" simulatemass="1" invertcontrol="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node6">
-    <input levelingroll="0.5" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingpitch="5.2" width="1344" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="0.400">
-      <level height="1344" width="1344" preload="0" predecode="0"/>
-      <level height="672" width="672" preload="0" predecode="0"/>
-      <level height="336" width="336" preload="1" predecode="1"/>
+    <input levelingroll="0.5" width="1344" overlap="1" height="1344" leveltilesize="510" levelbias="0.400" levelbiashidpi="0.400" levelingpitch="5.2" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="315" fovmode="0">
-      <start pan="-117.616" tilt="-15.2367" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start pan="-117.616" tilt="-15.2367" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
       <min pan="0" tilt="-90" fov="5"/>
-      <max scaletofit="1" pan="360" tilt="90" fovstereographic="270" fov="120" fovfisheye="360"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
     </view>
-    <userdata info="Asheville North Carolina" comment="Lofts are one of my favorite things.  It is just like having a tree fort, with the skylight." tags="asheville apt" title="LOFT MUSIC!!" copyright="Round View Tours &amp; Development" latitude="35.626047" customnodeid="" datetime="7/31/2017 8:21 PM" description="LOFT MUSIC!!" author="Curtis Coddington" longitude="-82.555028" source="Theta S"/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" textalpha="1" borderalpha="1" backgroundalpha="1" wordwrap="1" width="180" textcolor="0x000000" border="1" enabled="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x000000" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="1" mode="2" bordercolor="0x1c728e"/>
-      <polyhotspot title="Back To The Bedroom" target="" url="{node5}" id="Poly01" description="">
-        <vertex pan="-8.79" tilt="-29.05"/>
-        <vertex pan="-8.56" tilt="-10.39"/>
-        <vertex pan="-46.17" tilt="-3.19"/>
-        <vertex pan="-46.12" tilt="-12.26"/>
-        <vertex pan="-45.15" tilt="-12.61"/>
-        <vertex pan="-45.24" tilt="-14.67"/>
-        <vertex pan="-46.26" tilt="-14.97"/>
-        <vertex pan="-12.95" tilt="-33.89"/>
-      </polyhotspot>
-      <polyhotspot title="Meg &amp; I in the loft" target="_blank" url="https://github.com/centelred/asheapt/blob/master/images/0730171814.jpg?raw=true" id="Poly02" description="">
+    <userdata longitude="-82.555028" description="LOFT MUSIC!!" source="Theta S" title="LOFT MUSIC!!" author="Curtis Coddington" datetime="7/31/2017 8:21 PM" comment="Lofts are one of my favorite things.  It is just like having a tree fort, with the skylight." customnodeid="" info="Asheville North Carolina" tags="asheville apt" latitude="35.626047" copyright="Round View Tours &amp; Development"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" border="1" backgroundcolor="0xffffff" enabled="1" bordercolor="0x000000" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" height="20" textcolor="0x000000" borderalpha="1" background="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" mode="2" borderalpha="1"/>
+      <polyhotspot description="" title="Meg &amp; I in the loft" url="https://github.com/centelred/asheapt/blob/master/images/0730171814.jpg?raw=true" target="_blank" id="Poly02">
         <vertex pan="-154.04" tilt="-18.17"/>
         <vertex pan="-115.36" tilt="-73.53"/>
         <vertex pan="119.06" tilt="-28.14"/>
         <vertex pan="172.23" tilt="-16.99"/>
       </polyhotspot>
+      <hotspot pan="-23.72" description="" tilt="-22.54" title="Back To The Bedroom" url="{node5}" skinid="ht_node" target="" id="Point01"/>
     </hotspots>
     <media/>
-    <transition softedge="10" zoomfov="20" type="diptocolor" zoomspeed="2" zoomin="0" blendtime="1" zoomout="0" zoomoutpause="1" enabled="1" blendcolor="0x000000"/>
-    <autorotate nodedelay="30.00" noderandom="0" startloaded="1" speed="0.200" delay="3.00" enabled="1" returntohorizon="0.000" useanimation="0"/>
-    <flyintransition speed="0.70" enabled="1"/>
+    <transition blendtime="1" zoomfov="20" type="diptocolor" softedge="10" enabled="1" zoomout="0" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" zoomin="0"/>
+    <autorotate enabled="1" noderandom="0" delay="3.00" returntohorizon="0.000" nodedelay="30.00" startloaded="1" speed="0.200" useanimation="0"/>
+    <flyintransition enabled="1" speed="0.70"/>
     <animation syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedmouse="0" lockedkeyboard="0" contextprojections="0" invertwheel="0" lockedwheel="0" speedwheel="1" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" contextfullscreen="0" rubberband="0" dblclickfullscreen="0" lockedkeyboardzoom="0"/>
+    <control rubberband="0" contextfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" hideabout="0" dblclickfullscreen="0" lockedmouse="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" simulatemass="1" invertcontrol="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node8">
-    <input levelingroll="2.3" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingpitch="4.6" width="1344" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="0.400">
-      <level height="1344" width="1344" preload="0" predecode="0"/>
-      <level height="672" width="672" preload="0" predecode="0"/>
-      <level height="336" width="336" preload="1" predecode="1"/>
+    <input levelingroll="2.3" width="1344" overlap="1" height="1344" leveltilesize="510" levelbias="0.400" levelbiashidpi="0.400" levelingpitch="4.6" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="270" fovmode="0">
-      <start pan="0" tilt="0" fov="70" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
       <min pan="0" tilt="-90" fov="5"/>
-      <max scaletofit="1" pan="360" tilt="90" fovstereographic="270" fov="120" fovfisheye="360"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
     </view>
-    <userdata info="Asheville North Carolina" comment="Welcome to the Tree Fort!" tags="asheville apt" title="Front Stairs" copyright="Round View Tours &amp; Development" latitude="35.626053" customnodeid="" datetime="7/31/2017 8:27 PM" description="Front Stairs" author="Curtis Coddington" longitude="-82.554922" source="Theta S"/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" textalpha="1" borderalpha="1" backgroundalpha="1" wordwrap="1" width="180" textcolor="0x000000" border="1" enabled="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x000000" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="1" mode="2" bordercolor="0x1c728e"/>
-      <polyhotspot title="To The Patio" target="" url="{node3}" id="Poly01" description="">
-        <vertex pan="-27.05" tilt="-17.47"/>
-        <vertex pan="-27.83" tilt="15.34"/>
-        <vertex pan="-10.62" tilt="16.62"/>
-        <vertex pan="-10.97" tilt="4.35"/>
-        <vertex pan="-13.45" tilt="4.31"/>
-        <vertex pan="-15.65" tilt="2.73"/>
-        <vertex pan="-16.22" tilt="-0.59"/>
-        <vertex pan="-16.44" tilt="-3.19"/>
-        <vertex pan="-15.42" tilt="-4.04"/>
-        <vertex pan="-16.1" tilt="-5.79"/>
-        <vertex pan="-15.19" tilt="-12.2"/>
-        <vertex pan="-16.33" tilt="-18.52"/>
-        <vertex pan="-16.33" tilt="-18.52"/>
-      </polyhotspot>
-      <polyhotspot title="The Front Gate" target="" url="{node1}" id="Poly02" description="">
-        <vertex pan="152.13" tilt="-38.81"/>
-        <vertex pan="134.83" tilt="-34.02"/>
-        <vertex pan="127.17" tilt="-36.26"/>
-        <vertex pan="148.65" tilt="-42.86"/>
-      </polyhotspot>
-      <polyhotspot title="The Hot Tub" target="" url="" id="Poly03" description="">
-        <vertex pan="25.07" tilt="-29.62"/>
-        <vertex pan="41.29" tilt="-35.46"/>
-        <vertex pan="41.55" tilt="-29.63"/>
-        <vertex pan="35.91" tilt="-25.8"/>
-      </polyhotspot>
-      <polyhotspot title="The Mountain View!" target="_blank" url="https://github.com/centelred/asheapt/blob/master/images/0730171825.jpg?raw=true" id="Poly04" description="">
+    <userdata longitude="-82.554922" description="Front Stairs" source="Theta S" title="Front Stairs" author="Curtis Coddington" datetime="7/31/2017 8:27 PM" comment="Welcome to the Tree Fort!" customnodeid="" info="Asheville North Carolina" tags="asheville apt" latitude="35.626053" copyright="Round View Tours &amp; Development"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" border="1" backgroundcolor="0xffffff" enabled="1" bordercolor="0x000000" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" height="20" textcolor="0x000000" borderalpha="1" background="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" mode="2" borderalpha="1"/>
+      <polyhotspot description="" title="The Mountain View!" url="https://github.com/centelred/asheapt/blob/master/images/0730171825.jpg?raw=true" target="_blank" id="Poly04">
         <vertex pan="175.39" tilt="6.25"/>
         <vertex pan="179" tilt="5.49"/>
         <vertex pan="-178.26" tilt="5.36"/>
@@ -443,41 +290,37 @@
         <vertex pan="166.18" tilt="6.18"/>
         <vertex pan="172.2" tilt="6.56"/>
       </polyhotspot>
+      <hotspot pan="-24.91" description="&#x9;" tilt="-6.99" title="To The Patio" url="{node3}" skinid="ht_node" target="" id="Point01"/>
+      <hotspot pan="133.51" description="" tilt="-37.1" title="Back To The Front Gate" url="{node1}" skinid="ht_node" target="" id="Point02"/>
+      <hotspot pan="46.6" description="" tilt="-34.94" title="Back To The Hot Tub" url="{node2}" skinid="ht_node" target="" id="Point03"/>
     </hotspots>
     <media/>
-    <transition softedge="10" zoomfov="20" type="diptocolor" zoomspeed="2" zoomin="0" blendtime="1" zoomout="0" zoomoutpause="1" enabled="1" blendcolor="0x000000"/>
-    <autorotate nodedelay="30.00" noderandom="0" startloaded="1" speed="0.200" delay="3.00" enabled="1" returntohorizon="0.000" useanimation="0"/>
-    <flyintransition speed="0.70" enabled="1"/>
+    <transition blendtime="1" zoomfov="20" type="diptocolor" softedge="10" enabled="1" zoomout="0" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" zoomin="0"/>
+    <autorotate enabled="1" noderandom="0" delay="3.00" returntohorizon="0.000" nodedelay="30.00" startloaded="1" speed="0.200" useanimation="0"/>
+    <flyintransition enabled="1" speed="0.70"/>
     <animation syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedmouse="0" lockedkeyboard="0" contextprojections="0" invertwheel="0" lockedwheel="0" speedwheel="1" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" contextfullscreen="0" rubberband="0" dblclickfullscreen="0" lockedkeyboardzoom="0"/>
+    <control rubberband="0" contextfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" hideabout="0" dblclickfullscreen="0" lockedmouse="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" simulatemass="1" invertcontrol="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node11">
-    <input levelingroll="-0.1" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingpitch="-2.8" width="1344" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="0.400">
-      <level height="1344" width="1344" preload="0" predecode="0"/>
-      <level height="672" width="672" preload="0" predecode="0"/>
-      <level height="336" width="336" preload="1" predecode="1"/>
+    <input levelingroll="-0.1" width="1344" overlap="1" height="1344" leveltilesize="510" levelbias="0.400" levelbiashidpi="0.400" levelingpitch="-2.8" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="112.5" fovmode="0">
-      <start pan="-2.28" tilt="-12.43" fov="90.9" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start pan="-2.28" tilt="-12.43" projection="4" fov="90.9"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
       <min pan="0" tilt="-90" fov="5"/>
-      <max scaletofit="1" pan="360" tilt="90" fovstereographic="270" fov="120" fovfisheye="360"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
     </view>
-    <userdata info="Asheville North Carolina" comment="She is afraid of heights.." tags="blueridge parkway" title="Onbark Ridge Overlook" copyright="Round View Tours &amp; Development" latitude="35.652953" customnodeid="" datetime="7/31/2017 11:09 AM" description="" author="Curtis Coddington" longitude="-82.485147" source="Theta S"/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" textalpha="1" borderalpha="1" backgroundalpha="1" wordwrap="1" width="180" textcolor="0x000000" border="1" enabled="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x000000" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="1" mode="2" bordercolor="0x1c728e"/>
-      <hotspot title="Mountains" pan="-3.99" tilt="-57.25" target="" url="images/0731171122_HDR.jpg" id="Point05" description="" skinid="ht_image"/>
-      <polyhotspot title="Blue Ridge Parkway" target="" url="{node12}" id="Poly01" description="Further up the mountain!">
-        <vertex pan="134.8" tilt="-1.58"/>
-        <vertex pan="159.16" tilt="-5.03"/>
-        <vertex pan="161.63" tilt="-5.72"/>
-        <vertex pan="165.55" tilt="-6.78"/>
-        <vertex pan="131.92" tilt="-5.32"/>
-        <vertex pan="132.21" tilt="-5.16"/>
-      </polyhotspot>
-      <polyhotspot title="Back to Asheville!" target="" url="{node1}" id="Poly02" description="">
+    <userdata longitude="-82.485147" description="" source="Theta S" title="Onbark Ridge Overlook" author="Curtis Coddington" datetime="7/31/2017 11:09 AM" comment="She is afraid of heights.." customnodeid="" info="Asheville North Carolina" tags="blueridge parkway" latitude="35.652953" copyright="Round View Tours &amp; Development"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" border="1" backgroundcolor="0xffffff" enabled="1" bordercolor="0x000000" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" height="20" textcolor="0x000000" borderalpha="1" background="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" mode="2" borderalpha="1"/>
+      <hotspot pan="-3.99" description="" tilt="-57.25" title="Mountains" url="images/0731171122_HDR.jpg" skinid="ht_image" target="" id="Point05"/>
+      <hotspot pan="123.66" description="" tilt="3.15" title="To The Blue Ridge Parkway Overlook" url="{node12}" skinid="ht_node" target="" id="Point01"/>
+      <polyhotspot description="" title="Back to Asheville!" url="{node1}" target="" id="Poly02">
         <vertex pan="-50" tilt="0.24"/>
         <vertex pan="-47.91" tilt="-0.48"/>
         <vertex pan="-47.12" tilt="-2.37"/>
@@ -507,7 +350,7 @@
         <vertex pan="-35.08" tilt="0.23"/>
         <vertex pan="-40.17" tilt="-0.62"/>
       </polyhotspot>
-      <polyhotspot title="The Mazda at the overlook" target="_blank" url="https://github.com/centelred/asheapt/blob/master/images/0731171317-1.jpg?raw=true" id="Poly03" description="">
+      <polyhotspot description="" title="The Mazda at the overlook" url="https://github.com/centelred/asheapt/blob/master/images/0731171317-1.jpg?raw=true" target="_blank" id="Poly03">
         <vertex pan="-122.78" tilt="-7.98"/>
         <vertex pan="-122.83" tilt="-6.72"/>
         <vertex pan="-122.54" tilt="-6.18"/>
@@ -527,7 +370,7 @@
         <vertex pan="-118.76" tilt="-8.16"/>
         <vertex pan="-119.2" tilt="-8.02"/>
       </polyhotspot>
-      <polyhotspot title="The Welcome Center" target="_blank" url="https://github.com/centelred/asheapt/blob/master/images/0731171033_HDR.jpg?raw=true" id="Poly04" description="">
+      <polyhotspot description="" title="The Welcome Center" url="https://github.com/centelred/asheapt/blob/master/images/0731171033_HDR.jpg?raw=true" target="_blank" id="Poly04">
         <vertex pan="-108.76" tilt="-3.74"/>
         <vertex pan="-102.61" tilt="-3.19"/>
         <vertex pan="-102.75" tilt="-2.67"/>
@@ -540,7 +383,7 @@
         <vertex pan="-110.54" tilt="-2.98"/>
         <vertex pan="-109.29" tilt="-3.12"/>
       </polyhotspot>
-      <polyhotspot title="Side of the road" target="_blank" url="https://github.com/centelred/asheapt/blob/master/images/0801171155.jpg?raw=true" id="Poly05" description="">
+      <polyhotspot description="" title="Side of the road" url="https://github.com/centelred/asheapt/blob/master/images/0801171155.jpg?raw=true" target="_blank" id="Poly05">
         <vertex pan="133.44" tilt="-1.06"/>
         <vertex pan="134.07" tilt="-0.57"/>
         <vertex pan="129.49" tilt="0.21"/>
@@ -551,57 +394,32 @@
       </polyhotspot>
     </hotspots>
     <media>
-      <lensflare color="0xffffff" pan="-1.88" tilt="-34.63" type="1" blinding="50" id="Lensflare01" alpha="80"/>
+      <lensflare type="1" pan="-1.88" tilt="-34.63" alpha="80" color="0xffffff" id="Lensflare01" blinding="50"/>
     </media>
-    <transition softedge="10" zoomfov="20" type="diptocolor" zoomspeed="2" zoomin="0" blendtime="1" zoomout="0" zoomoutpause="1" enabled="1" blendcolor="0x000000"/>
-    <autorotate nodedelay="30.00" noderandom="0" startloaded="1" speed="0.200" delay="3.00" enabled="1" returntohorizon="0.000" useanimation="0"/>
-    <flyintransition speed="0.70" enabled="1"/>
+    <transition blendtime="1" zoomfov="20" type="diptocolor" softedge="10" enabled="1" zoomout="0" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" zoomin="0"/>
+    <autorotate enabled="1" noderandom="0" delay="3.00" returntohorizon="0.000" nodedelay="30.00" startloaded="1" speed="0.200" useanimation="0"/>
+    <flyintransition enabled="1" speed="0.70"/>
     <animation syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedmouse="0" lockedkeyboard="0" contextprojections="0" invertwheel="0" lockedwheel="0" speedwheel="1" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" contextfullscreen="0" rubberband="0" dblclickfullscreen="0" lockedkeyboardzoom="0"/>
+    <control rubberband="0" contextfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" hideabout="0" dblclickfullscreen="0" lockedmouse="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" simulatemass="1" invertcontrol="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node12">
-    <input levelingroll="0.9" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingpitch="0" width="1344" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="0.400">
-      <level height="1344" width="1344" preload="0" predecode="0"/>
-      <level height="672" width="672" preload="0" predecode="0"/>
-      <level height="336" width="336" preload="1" predecode="1"/>
+    <input levelingroll="0.9" width="1344" overlap="1" height="1344" leveltilesize="510" levelbias="0.400" levelbiashidpi="0.400" levelingpitch="0" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="90" fovmode="0">
-      <start pan="-8.44116" tilt="-8.78731" fov="84.0067" projection="4"/>
-      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <start pan="-8.44116" tilt="-8.78731" projection="4" fov="84.0067"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
       <min pan="0" tilt="-90" fov="5"/>
-      <max scaletofit="1" pan="360" tilt="90" fovstereographic="270" fov="120" fovfisheye="360"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360"/>
     </view>
-    <userdata info="Asheville North Carolina" comment="This spot had a trail, there was supposed to be a waterfall.  4 miles later, still no water.  Decided to get some shots instead." tags="blueridge parkway" title="Blue Ridge Parkway" copyright="Round View Tours &amp; Development" latitude="35.734908" customnodeid="" datetime="7/31/2017 1:12 PM" description="Blue Ridge Parkway" author="Curtis Coddington" longitude="-82.343978" source="Theta S"/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundcolor="0xffffff" borderradius="1" height="20" textalpha="1" borderalpha="1" backgroundalpha="1" wordwrap="1" width="180" textcolor="0x000000" border="1" enabled="1" background="1" bordercolor="0x000000"/>
-      <polystyle backgroundcolor="0x000000" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="1" mode="2" bordercolor="0x1c728e"/>
-      <polyhotspot title="Back to Onbark" target="" url="{node11}" id="Poly01" description="">
-        <vertex pan="-93.56" tilt="-11.9"/>
-        <vertex pan="-97.93" tilt="-7.65"/>
-        <vertex pan="-101.99" tilt="-7.85"/>
-        <vertex pan="-101.36" tilt="-9.74"/>
-        <vertex pan="-107.06" tilt="-14.26"/>
-        <vertex pan="-107.06" tilt="-14.26"/>
-      </polyhotspot>
-      <polyhotspot title="Back To Asheville!" target="" url="{node1}" id="Poly02" description="">
-        <vertex pan="158.04" tilt="-5.93"/>
-        <vertex pan="151.89" tilt="-10.33"/>
-        <vertex pan="147.63" tilt="-8.14"/>
-        <vertex pan="144.92" tilt="-7.67"/>
-        <vertex pan="144.45" tilt="-6.3"/>
-        <vertex pan="141.86" tilt="-6.81"/>
-        <vertex pan="141.71" tilt="-4.29"/>
-        <vertex pan="138.06" tilt="-5"/>
-        <vertex pan="135.07" tilt="-5.22"/>
-        <vertex pan="133.78" tilt="-5.95"/>
-        <vertex pan="131.52" tilt="-3.74"/>
-        <vertex pan="136.37" tilt="-3.23"/>
-        <vertex pan="143.56" tilt="-4.58"/>
-        <vertex pan="148.6" tilt="-4.32"/>
-        <vertex pan="154.28" tilt="-5.02"/>
-      </polyhotspot>
-      <polyhotspot title="Hit the trail!" target="_blank" url="https://github.com/centelred/asheapt/blob/master/images/0731171153.jpg?raw=true" id="Poly03" description="">
+    <userdata longitude="-82.343978" description="Blue Ridge Parkway" source="Theta S" title="Blue Ridge Parkway" author="Curtis Coddington" datetime="7/31/2017 1:12 PM" comment="This spot had a trail, there was supposed to be a waterfall.  4 miles later, still no water.  Decided to get some shots instead." customnodeid="" info="Asheville North Carolina" tags="blueridge parkway" latitude="35.734908" copyright="Round View Tours &amp; Development"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textalpha="1" border="1" backgroundcolor="0xffffff" enabled="1" bordercolor="0x000000" borderradius="1" wordwrap="1" width="180" backgroundalpha="1" height="20" textcolor="0x000000" borderalpha="1" background="1"/>
+      <polystyle handcursor="1" backgroundcolor="0x000000" bordercolor="0x1c728e" backgroundalpha="0.2509803921568627" mode="2" borderalpha="1"/>
+      <polyhotspot description="" title="Hit the trail!" url="https://github.com/centelred/asheapt/blob/master/images/0731171153.jpg?raw=true" target="_blank" id="Poly03">
         <vertex pan="125.32" tilt="-29.79"/>
         <vertex pan="117.56" tilt="-32.99"/>
         <vertex pan="117.55" tilt="-25.63"/>
@@ -610,7 +428,7 @@
         <vertex pan="118.85" tilt="-20.22"/>
         <vertex pan="119.78" tilt="-25.6"/>
       </polyhotspot>
-      <polyhotspot title="Dogs on the trail" target="_blank" url="https://github.com/centelred/asheapt/blob/master/images/0731171201_HDR.jpg?raw=true" id="Poly04" description="">
+      <polyhotspot description="" title="Dogs on the trail" url="https://github.com/centelred/asheapt/blob/master/images/0731171201_HDR.jpg?raw=true" target="_blank" id="Poly04">
         <vertex pan="87.3" tilt="-5.67"/>
         <vertex pan="81.28" tilt="-8.81"/>
         <vertex pan="79.99" tilt="-12.36"/>
@@ -624,20 +442,22 @@
         <vertex pan="79.28" tilt="-7.59"/>
         <vertex pan="82.72" tilt="-5.79"/>
       </polyhotspot>
-      <polyhotspot title="Meg &amp; I @ the overlook" target="_blank" url="https://github.com/centelred/asheapt/blob/master/images/0731171313_Burst01.jpg?raw=true" id="Poly05" description="">
+      <polyhotspot description="" title="Meg &amp; I @ the overlook" url="https://github.com/centelred/asheapt/blob/master/images/0731171313_Burst01.jpg?raw=true" target="_blank" id="Poly05">
         <vertex pan="-74.46" tilt="-21.69"/>
         <vertex pan="-80.37" tilt="-21.62"/>
         <vertex pan="-61.83" tilt="-53.06"/>
         <vertex pan="-48.54" tilt="-48.76"/>
       </polyhotspot>
+      <hotspot pan="-100.28" description="" tilt="-6.25" title="Back To Onbark" url="{node11}" skinid="ht_node" target="" id="Point01"/>
+      <hotspot pan="134.89" description="" tilt="-4.3" title="Back To Asheville" url="{node1}" skinid="ht_node" target="" id="Point02"/>
     </hotspots>
     <media>
-      <lensflare color="0xffffff" pan="14.39" tilt="-40.03" type="1" blinding="50" id="Lensflare01" alpha="80"/>
+      <lensflare type="1" pan="14.39" tilt="-40.03" alpha="80" color="0xffffff" id="Lensflare01" blinding="50"/>
     </media>
-    <transition softedge="10" zoomfov="20" type="diptocolor" zoomspeed="2" zoomin="0" blendtime="1" zoomout="0" zoomoutpause="1" enabled="1" blendcolor="0x000000"/>
-    <autorotate nodedelay="30.00" noderandom="0" startloaded="1" speed="0.200" delay="3.00" enabled="1" returntohorizon="0.000" useanimation="0"/>
-    <flyintransition speed="0.70" enabled="1"/>
+    <transition blendtime="1" zoomfov="20" type="diptocolor" softedge="10" enabled="1" zoomout="0" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000" zoomin="0"/>
+    <autorotate enabled="1" noderandom="0" delay="3.00" returntohorizon="0.000" nodedelay="30.00" startloaded="1" speed="0.200" useanimation="0"/>
+    <flyintransition enabled="1" speed="0.70"/>
     <animation syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedmouse="0" lockedkeyboard="0" contextprojections="0" invertwheel="0" lockedwheel="0" speedwheel="1" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" contextfullscreen="0" rubberband="0" dblclickfullscreen="0" lockedkeyboardzoom="0"/>
+    <control rubberband="0" contextfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" hideabout="0" dblclickfullscreen="0" lockedmouse="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" simulatemass="1" invertcontrol="1" invertwheel="0" speedwheel="1"/>
   </panorama>
 </tour>
